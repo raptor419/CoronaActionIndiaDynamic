@@ -1,1 +1,1 @@
-"# CoronaActionIndiaDynamic" 
+# CoronaActionIndiaDynamic
