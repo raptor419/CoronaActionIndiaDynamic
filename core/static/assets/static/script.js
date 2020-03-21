@@ -12,9 +12,9 @@ var states_delta = 0;
 // make sure to use Prod before submitting
 
 // var sheet_id = "ob1elpb"; // Test
-var sheet_id = "ovd0hzm"; // Prod
+var sheet_id = "2"; // Prod
 
-$.getJSON("https://spreadsheets.google.com/feeds/cells/1nzXUdaIWC84QipdVGUKTiCSc5xntBbpMpzLm6Si33zk/"+sheet_id+"/public/values?alt=json",
+$.getJSON("https://spreadsheets.google.com/feeds/cells/1xi1Wiazqy6k016CcriOt9kimX7jdq9M3alksLpUKN4U/"+sheet_id+"/public/values?alt=json",
 function(result) {
     entries = result["feed"]["entry"]
     entries.forEach(function(item) {
