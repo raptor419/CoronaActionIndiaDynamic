@@ -6,10 +6,589 @@
 {% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
+<link rel="stylesheet" type="text/css"  href="/static/assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/static/assets/css/font-awesome.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css"  href="/static/assets/css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/static/assets/cssjs/modernizr.custom.js"></script>
+
 
     <!-- (Almost) A blank page -->
     <h3>
-    Add content here
+    Information
     </h3>
+    <div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Guidelines')" id="defaultOpen">General Guidelines</button>
+        <button class="tablinks" onclick="openCity(event, 'Press')">Important and Useful Information</button>
+        <button class="tablinks" onclick="openCity(event, 'What is Coronavirus?')">What is Coronavirus?</button>
+        <button class="tablinks" onclick="openCity(event, 'Myths')">Myths</button>
+
+      </div>
+    </div>
+
+    <!-- Tab content -->
+    <div class="row">
+      <div class="about-text">
+      <div id="Guidelines" class="tabcontent">
+        <h3>1. Wash your hands frequently</h3>
+        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.
+          <b>Why?</b> Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.
+        </p>
+
+        <h3>2. Maintain social distancing</h3>
+        <p>
+          Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.
+          <b>Why?</b> When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.
+        </p>
+
+        <h3>3. Avoid touching eyes, nose and mouth</h3>
+        <p>
+          <b>Why?</b> Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.
+        </p>
+
+        <h3>4. Practice respiratory hygiene</h3>
+        <p>Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.
+
+          <b>Why?</b> National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.
+        </p>
+
+        <h3>5. If you have fever, cough and difficulty breathing, seek medical care early</h3>
+        <p>
+          Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.
+          <b>Why?</b> When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.
+        </p>
+
+        <h3>6. Stay informed and follow advice given by your healthcare provider</h3>
+        <p>
+          Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.
+          <b>Why?</b> National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves.
+        </p>
+        <!--<img src="https://ourworldindata.org/uploads/2020/03/Coronavirus-Symptoms-–-WHO-joint-mission-2-800x429.png" alt="Flowers in Chania" >
+        -->
+
+      </div>
+      <div id="Press" class="tabcontent">
+        <b>
+        <h3>
+          <a href="http://www.newsonair.com/Main-News-Details.aspx?id=383284" target="_blank">
+            79. Main points from PM's speech regarding Corona
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.hindustantimes.com/india-news/coronavirus-outbreak-private-lab-tests-may-start-next-week-with-rs-5-000-price-cap/story-w4HfW0PvJso5vZXKaUrE9H.html" target="_blank">
+            78. Coronavirus outbreak: Private lab tests may start next week with Rs 5,000 price cap
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://thewire.in/government/covid-19-icmr-vrdl-influenza-like-illness-community-transmission-sentinel-surveillance" target="_blank">
+            77. Four Reasons It's Hard to Believe India Doesn't Have Community Transmission
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/covid-19-testing-criteria-may-be-widened/articleshow/74718991.cms" target="_blank">
+            76. Covid-19 testing criteria may be widened
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.ndtv.com/world-news/coronavirus-pandemic-un-secretary-general-antonio-guterres-says-millions-could-die-if-virus-allowed-2197675" target="_blank">
+            75. Millions Could Die If Coronavirus Allowed To Spread Unchecked: UN Chief 
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.thenewsminute.com/article/panic-buying-wrong-dont-do-it-pm-modi-appeals-citizens-120664" target="_blank">
+            74. Panic buying is wrong, don't do it': PM Modi appeals to citizens
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.nytimes.com/2020/03/19/opinion/coronavirus-testing.html" target="_blank">
+            73. The Epic Failure of Coronavirus Testing in America
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.theguardian.com/society/2020/mar/19/uk-drive-develop-coronavirus-vaccine-science" target="_blank">
+            72. Trials to begin on Covid-19 vaccine in UK next month 
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.vox.com/science-and-health/2020/3/18/21184992/coronavirus-covid-19-flu-comparison-chart" target="_blank">
+            71. Why Covid-19 is worse than the flu, in one chart
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.theguardian.com/world/2020/mar/19/chinas-coronavirus-lockdown-strategy-brutal-but-effective" target="_blank">
+            70. China's coronavirus lockdown strategy: brutal but effective
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://coronavirus.1point3acres.com/en" target="_blank">
+            69. complete info about Corona virus cases in USA and Canada
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://twitter.com/risklayer" target="_blank">
+            68. Twitter handle of a disaster risk management company covering Corona virus thoroughly in Germany
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.entrepreneur.com/article/345759" target="_blank">
+            67. How Businesses Should Handle the Coronavirus Outbreak
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://abcnews.go.com/Health/social-distancing-strategies-amid-coronavirus-outbreak/story?id=69648478" target="_blank">
+            66. Social DIstancing Strategies
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.bbc.com/news/health-51906604" target="_blank">
+             65. Coronavirus: US volunteers test first vaccine
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.thehindubusinessline.com/companies/two-indian-companies-in-race-for-vaccine-against-covid-19/article31025613.ece" target="_blank">
+              64. Two Indian companies in race for vaccine against Covid-19
+          </a>
+        </h3>
+
+                  <h3>
+          <a href="https://www.cnbc.com/2020/03/16/how-to-work-from-home-with-your-kids-during-the-coronavirus-outbreak.html" target="_blank">
+          63. Tips to work from home during coronavirus outbreak with your kids
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://pib.gov.in/PressReleseDetail.aspx?PRID=1606891" target="_blank">
+           62. Dedicated teams to visit quarantine facilities to assess and monitor on a regular basis
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.who.int/india/emergencies/novel-coronavirus-2019" target="_blank">
+           61. WHO live updated reports on coronavirus outbreak in India
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://fortune.com/2020/03/12/coursera-free-online-courses-coronavirus-pandemic/" target="_blank">
+           60. Coursera offers free access to its online courses worldwide 
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.ndtv.com/india-news/tirumala-tirupati-temple-in-andhra-pradesh-to-shut-down-amid-coronavirus-outbreak-2197427" target="_blank">
+           59. Tirupathi temple closes for first time in 100 years due to Corona virus
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.nbcnews.com/health/health-news/live-blog/coronavirus-china-reports-no-new-domestic-cases-first-time-nyc-n1163556" target="_blank">
+           58. China reports no local transmission of Corona for the first time since the first case was detected
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.thesun.co.uk/tech/11206356/coronavirus-facebook-news-feed-information-who-advice/" target="_blank">
+           57. Facebook decides to display verified information at the top of users news feed
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://economictimes.indiatimes.com/news/politics-and-nation/what-india-can-learn-from-china-and-south-korea-to-ward-off-coronavirus/articleshow/74699439.cms" target="_blank">
+           56. What India can learn from China and South Korea to ward off coronavirus (Scenarios in between China’s lockdown and South Korea’s mass-testing approaches can be considered.)
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.thehindu.com/sci-tech/health/coronavirus-the-importance-of-contact-tracing/article31104907.ece" target="_blank">
+           55. The importance of ‘contact tracing’ in Coronavirus. Contact tracing and follow-up health interventions will ensure that the infection spread is limited and retard or stop the pace of the epidemic to the third stage — community transmission.
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.forbes.com/sites/tarahaelle/2020/03/18/severe-coronavirus-risk-higher-in-babies-lower-in-kids-study-finds/#67f8f4a77f1b" target="_blank">
+           54. Coronavirus Infection Mild In Over Half Of Children, Infants At Slightly More Risk, Study Finds
+          </a>
+        </h3>
+        <h3>
+          <a href="https://edition.cnn.com/2020/03/16/health/coronavirus-ibuprofen-french-health-minister-scn-intl-scli/index.html" target="_blank">
+            53. Taking anti-inflammatory drugs [ibuprofen, cortisone] could be an aggravating factor of the infection. If you have a fever, take paracetamol. If you are already on anti-inflammatory drugs or in doubt, ask your doctor for advice
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.nytimes.com/2020/03/17/science/coronavirus-treatment.html" target="_blank">
+            52. In an ambitious international collaboration, researchers have “mapped” proteins in the coronavirus and identified 50 drugs to test against it, Hundreds of Scientists are Scrambling to Find a Coronavirus Treatment.
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.forbes.com/sites/marybethpfeiffer/2020/03/18/science-works-to-use-old-cheap-drugs-to-attack-coronavirus--it-might-just-work/#30d84e875c49" target="_blank">
+            51. Researchers Look To Old Drugs For A Possible Coronavirus Treatment
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.express.co.uk/news/science/1257162/Coronavirus-symptoms-COVID19-infected-no-symptoms-latest-coronavirus-news" target="_blank">
+            50. Study: 80% of infected likely to not show COVID-19 symptoms, expert warns.
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.abc.net.au/news/health/2020-03-19/coronavirus--drugs-and-vaccines-to-treat-and-prevent-covid-19/12067496" target="_blank">
+            49. What scientists are working on to find a cure for coronavirus COVID-19
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.bbc.com/news/world-asia-india-51904019" target="_blank">
+            48. Coronavirus: What India can learn from the deadly 1918 flu
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.bbc.com/news/world-asia-india-51910099" target="_blank">
+            47. Coronavirus: Is drinking cow urine any help?
+          </a>
+        </h3>
+        <h3>
+          <a href="https://economictimes.indiatimes.com/news/politics-and-nation/contract-tracing-the-next-phase-of-indias-coronavirus-battle-unfolds/articleshow/74706730.cms" target="_blank">
+            46. Contract tracing: The next phase of India's coronavirus battle unfolds
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.nytimes.com/2020/03/18/health/coronavirus-antiviral-drugs-fail.html" target="_blank">
+            45. A Promising Treatment for Coronavirus Fails
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.statnews.com/2020/03/18/coronavirus-new-age-analysis-of-risk-confirms-young-adults-not-invincible/" target="_blank">
+            44. New analysis breaks down age-group risk for coronavirus — and shows millennials are not invincible
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.usatoday.com/story/news/health/2020/03/18/heres-how-long-coronavirus-can-live-surfaces-and-air-study/2863287001/" target="_blank">
+            43. Coronavirus can live in the air for hours and on surfaces for days, study finds
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.ndtv.com/india-news/coronavirus-cases-rise-to-169-in-the-country-says-health-ministry-news-agency-pti-2197130" target="_blank">
+           42. No Evidence Of Coronavirus Community Transmission In India: Top Body ICMR 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/early-investigations" target="_blank">
+            41. Early investigation protocol for COVID 19
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.escardio.org/Councils/Council-on-Hypertension-(CHT)/News/position-statement-of-the-esc-council-on-hypertension-on-ace-inhibitors-and-ang" target="_blank">
+            40. No Evidence that Patients who are on ACE inhibitors for treatment for blood pressure should change treatment
+          </a>
+        </h3>
+        <h3>
+          <a href="https://coronavirus.jhu.edu/map.html" target="_blank">
+            39. Worldwide interactive map for cases, fatality and recovery. 
+
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://coronavirus.jhu.edu/" target="_blank">
+            38. This website is a resource to help advance the understanding of the virus, inform the public, and brief policymakers in order to guide a response, improve care, and save lives.
+          </a>
+        </h3>
+        <h3>
+          <a href="https://map.coronasafe.in/" target="_blank">
+            37. What are the number of new cases happening 
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.youtube.com/watch?v=Kas0tIxDvrg" target="_blank">
+           36. Video on exponential growth
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.thelancet.com/coronavirus?dgcid=kr_pop-up_tlcoronavirus20" target="_blank">
+            35. Research resources to help you get latest research findings
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.who.int/docs/default-source/coronaviruse/mental-health-considerations.pdf?sfvrsn=6d3578af_8" target="_blank">
+            34. How to maintain mental health during this emergency
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://m.economictimes.com/industry/healthcare/biotech/healthcare/community-transmission-of-covid-19-is-inevitable-icmr/articleshow/74621197.cms" target="_blank">
+            33. India has only 30 days to prevent moving into the very dangerous Stage 3 of Coronavirus
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.weforum.org/agenda/2020/03/coronavirus-covid-19-isolation-virus-disease/" target="_blank">
+            32. How should I self-isolate if I develop symptoms? 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://pages.semanticscholar.org/coronavirus-research" target="_blank">
+            31. coronavirus global research community - all the research papers, datasets etc compiled and put at one place 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://qz.com/1818798/coronavirus-quarantine-has-serious-mental-health-implications/" target="_blank">
+            30. Mental health implications due to coronavirus quarantine 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.apa.org/research/action/speaking-of-psychology/coronavirus-anxiety" target="_blank">
+            29. Psychological consequences of coronavirus outbreak on general public and how to avoid them
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/reducing-stigma.html" target="_blank">
+            28. Reducing stigma around COVID 19
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html" target="_blank">
+            27. What to do when you are sick?
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html" target="_blank">
+            26. Managing anxiety and stress
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/specific-groups/high-risk-complications.html" target="_blank">
+            25. Precautionary measures for high risk patients
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank">
+            24. Protective Measures as recommended by WHO
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.news18.com/news/india/explained-how-india-is-testing-for-coronavirus-2537853.html" target="_blank">
+            23. How and What is India’s Testing Protocol for Coronavirus
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.standard.co.uk/news/health/coronavirus-covid-19-vaccine-trials-us-a4387846.html" target="_blank">
+            22. Potential coronavirus vaccine trial set to start on human subjects in the United States from 16th March, 2020
+          </a>
+        </h3>
+        <h3>
+          <a href="https://indianexpress.com/article/opinion/columns/coronavirus-covid-19-outbreak-india-world-cases-deaths-vaccine-6315850/" target="_blank">
+            21. India has entered Stage 2 of the COVID 19 epidemic, but can we do something urgently to halt it before Stages 3 and 4, and prevent it from becoming another China or Italy? (Currently, the cases and clusters in India are simple spreaders which means an infected person with normal infectivity. But COVID 19 can also have a “super spreader”, which means an infected person with high infectivity who can infect hundreds in no time.)
+          </a>
+        </h3>
+        <h3>
+          
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/travel-advice" target="_blank">
+            22. Travelling during Coronavirus
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.business-standard.com/article/current-affairs/coronavirus-india-s-readiness-a-concern-due-to-shortage-of-beds-drugs-120031401127_1.html" target="_blank">
+            20. Why India lags far behind on the resources required to deal with a pandemic such as Coronavirus - (shortage of Doctors, Ventilators and Beds in the intensive care units of its hospitals)
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.technologyreview.com/s/615342/how-baidu-is-bringing-ai-to-the-fight-against-coronavirus/" target="_blank">
+            19. How Baidu is bringing AI to the fight against coronavirus
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.wired.com/story/how-to-make-hand-sanitizer/?mbid=social_facebook&utm_brand=wired&utm_campaign=wired&utm_medium=social&utm_social-type=owned&utm_source=facebook&fbclid=IwAR0Hodw2aXdqo2erhrvfQd7uygZ-kMKHJHhRkf10oIiKsWW1ncW2RuVW7y0" target="_blank">
+            18. How to make your own hand sanitiser at home
+          </a>
+        </h3>
+        <h3>
+          <a href="https://timesofindia.indiatimes.com/india/covid-19-cases-to-be-discharged-only-after-2-negative-tests-in-24-hours-govt/articleshow/74643738.cms" target="_blank">
+            17. Govt: Coronavirus cases to be discharged only after 2 negative tests in 24 Hours.
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.aljazeera.com/news/2020/03/coronavirus-emergency-kit-preparation-symptoms-tips-200314103304717.html" target="_blank">
+            16. Your coronavirus emergency kit: Preparation, symptoms, tips
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.theatlantic.com/health/archive/2020/03/coronavirus-how-get-food-safely/608008/" target="_blank">
+            15. How You Should Get Food During the Pandemic
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://weather.com/en-IN/india/news/news/2020-03-12-corona-scare-govt-issues-dos-donts-for-home-quarantine-mask-use" target="_blank">
+            14. What to do in Home Quarantine? 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cell.com/2019-nCOV" target="_blank">
+            13. Research resources to help you get latest research findings
+          </a>
+        </h3>
+        <h3>
+          <a href="https://analyticsindiamag.com/coronavirus-package-in-now-available-for-r-programming-language/" target="_blank">
+            12. R Package for Data from Johns Hopkins 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters" target="_blank">
+            11. Common Myths related to Covid-19
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks" target="_blank">
+            10. When and how to use a Mask?
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/index.html" target="_blank">
+            9. How to prepare your family?
+          </a>
+        </h3>
+        <h3>
+          <a href="https://amp.theguardian.com/world/2020/mar/14/anti-inflammatory-drugs-may-aggravate-coronavirus-infection?fbclid=IwAR0INdyjLynKKEa6NJcubJJP3FWL8D0Sg_2hEDuKZrMcWL92tvPos7fv6E4" target="_blank">
+            8. Only Paracetamol for painkiller, do not take Ibuprofen or Aspirin.
+          </a>
+        </h3>
+        <h3>
+          <a href="https://timesofindia.indiatimes.com/city/jaipur/city-docs-cure-corona-patient-with-hiv-drugs/articleshow/74584859.cms?utm_medium=referral&utm_campaign=iOSapp&fbclid=IwAR2QpJpX0r6P1EY2U5JqjuCa4Y29Jov62_hxwctZKkzzOjgJtUe-s4oAHEg&from=mdr" target="_blank">
+            7. Unverified claim about effectiveness of HIV treatment in Covid-19
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.thehindu.com/data/data-indias-coronavirus-testing-rates-are-among-the-lowest-in-the-world/article31077126.ece" target="_blank">
+            6. India's Coronavirus Testing rates among the lowest
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.theatlantic.com/international/archive/2020/03/coronavirus-covid19-india-tuberculosis-public-health/607963/" target="_blank">
+            5. Lessons for Fighting the Coronavirus From India’s TB Struggle
+          </a>
+        </h3>
+        <h3>
+          <a href="https://economictimes.indiatimes.com/news/politics-and-nation/icmr-intensifies-random-testing-to-check-for-covid-19/articleshow/74643047.cms" target="_blank">
+            4. ICMR  - Checking whether community transmission takes place through random sampling of people who display flu-like symptoms but don’t have any history of travel to outbreak zones.
+          </a>
+        </h3>
+        <h3>
+          <a href="https://www.indiatoday.in/india/story/indian-army-taking-precautions-safeguard-troops-from-coronavirus-1655823-2020-03-15" target="_blank">
+            3. Precautions taken by Indian Army to safeguard troops from coronavirus 
+          </a>
+        </h3>
+        <h3>
+          <a href="https://qz.com/1815887/you-can-see-the-impact-of-coronavirus-from-space/" target="_blank">
+            2. Impact of coronavirus from space (how production is slowing down and goods are not being shipped out)
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/save-lives-with-social-distancing-how-to-protect-your-family-from-coronavirus-primed-to-hit-india-like-a-bomb/" target="_blank">
+            1. How to protect yourself through Social Distancing
+          </a>
+        </h3></b>
+      </div>
+      <div id="What is Coronavirus?" class="tabcontent">
+        <div class="container">
+    <div class="section-title text-center center">
+      <h1>Coronavirus Disease 2019 (COVID-19)</h1>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="about-text">
+        <p align="justify">Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases like Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The 2019 novel coronavirus, called 'SARS-CoV-2' (previously referred to as 2019-nCoV), is a new strain that has not been identified in humans before. The disease that is caused by SARS-CoV-2 is called 'COVID-19'.</p>
+        <p align="justify">On 31 December 2019, the World Health Organization (WHO) was informed of several cases of viral pneumonia of unknown cause detected in Wuhan City, China. The outbreak has rapidly evolved, affecting other parts of China and many countries worldwide in Asia, Europe, North and South America, Australia and Africa. On 11 March 2020, WHO labelled the COVID-19 outbreak as a pandemic.</p>
+        <br>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Tab content -->
+    <div class="row">
+      <div class="about-text">
+      <div id="Myths" class="tabcontent">
+        <h3>1.COVID-19 virus can be transmitted in areas with hot and humid climates.</h3>
+        <p>From the evidence so far, the COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather. Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.
+        </p>
+
+        <h3>2. Cold weather and snow cannot kill the new coronavirus.</h3>
+        <p>There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5Â°C to 37Â°C, regardless of the external temperature or weather. The most effective way to protect yourself against the new coronavirus is by frequently cleaning your hands with alcohol-based hand rub or washing them with soap and water.</p>
+         
+        <h3>3. Taking a hot bath will not prevent you from catching COVID-19.</h3>
+        <p>Your normal body temperature remains around 36.5Â°C to 37Â°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that coud occur by then touching your eyes, mouth, and nose.</p>
+      
+        <h3>4. The new coronavirus cannot be transmitted through mosquito bites.</h3>
+        <p>To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.</p>
+
+        <h3>5. Hand dryers are not effective in killing the 2019-nCoV.</h3>
+        <p>To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.</p>
+
+        <h3>6. Can an ultraviolet disinfection lamp kill the new coronavirus?</h3>
+        <p>Ultraviolet disinfection lamps cannot kill the new coronavirus. UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation.</p>
+
+        <h3>7. Can spraying alcohol or chlorine all over your body kill the new coronavirus?</h3>
+        <p>Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.</p>
+
+        <h3>8. Do vaccines against pneumonia protect you against the new coronavirus?</h3>
+        <p>Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus. The virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts.</p>
+     
+        <h3>9. Can regularly rinsing your nose with saline help prevent infection with the new coronavirus?</h3>
+        <p>There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. There is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.</p>
+
+        <h3>10. Can eating garlic help prevent infection with the new coronavirus?</h3>
+        <p>Eating garlic does not prevent infection with the new coronavirus.</p>
+      </div>
+
+      
+        
+      
+      
+      <br>
+    </div>
+  </div>
+</div>  
+
+<script type="text/javascript" src="/static/assets/js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="/static/assets/js/bootstrap.js"></script> 
+<script type="text/javascript" src="/static/assets/js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="/static/assets/js/easypiechart.js"></script> 
+<script type="text/javascript" src="/static/assets/js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="/static/assets/js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="/static/assets/js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="/static/assets/js/waypoints.js"></script> 
+<script type="text/javascript" src="/static/assets/js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="/static/assets/js/main.js"></script>
+<script type="text/javascript" src="/static/assets/js/abouttabs.js"></script>
+<script type="text/javascript" src="/static/assets/js/modal.js"></script>
+<script type="text/javascript" src="/static/assets/js/slider.js"></script> 
 
 {% endblock content %}

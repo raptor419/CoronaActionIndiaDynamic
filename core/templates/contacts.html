@@ -1,0 +1,40 @@
+
+{% extends "layouts/default.html" %}
+
+{% block title %} Blank Page {% endblock title %}
+
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800&display=swap" rel="stylesheet">
+<{% load static %}
+<script src="{% static 'assets/style.css' %}" alt="My image"></script>
+<style type="text/css">
+
+.google-container{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+}
+
+.google-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+    <!-- (Almost) A blank page -->
+    <h3>
+    Health Contact Numbers for Coronavirus 
+    </h3>
+                          <h3 class="lh-1"></h3>
+                          <iframe height="800px" width="100%" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/1xi1Wiazqy6k016CcriOt9kimX7jdq9M3alksLpUKN4U/gviz/tq?tqx=out:html&tq&gid=1313864680"></iframe>
+
+<script type="text/javascript" src="/static/assets/vendor.js %}"></script>
+<script type="text/javascript" src="/static/assets/bundle.js %}"></script>
+    
+
+{% endblock content %}

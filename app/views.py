@@ -20,8 +20,9 @@ def pages(request):
     try:
 
         load_template = request.path.split('/')[-1]
-        template = loader.get_template('pages/' + load_template)
-        return HttpResponse(template.render(context, request))
+        template = loader.get_template(load_template)
+        # return HttpResponse(template.render(context, request))
+        return render(request, load_template)
 
     except:
 
