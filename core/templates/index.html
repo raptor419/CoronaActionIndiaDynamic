@@ -31,6 +31,22 @@
     width: 100%;
     height: 100%;
 }
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
 </style>
             <div class="row gap-20 masonry pos-r">
               <div class="masonry-sizer col-md-6"></div>
@@ -81,7 +97,7 @@
                   <div class="col-md-3" id="kpi-recovered">
                     <div class="layers bd bgc-white p-20">
                       <div class="layer w-100 mB-10">
-                        <h6 class="lh-1">Recovered/Migrated</h6>
+                        <h6 class="lh-1">Recovered</h6>
                       </div>
                       <div class="layer w-100">
                         <div class="peers ai-sb fxw-nw">
@@ -114,7 +130,7 @@
                         </div>
                       </div>
                     </div>
-                    <h5 class="lh-1">Based upon current numbers reported at the MoHFW<a href="https://www.mohfw.gov.in/">MoHFW</a>) website</h5>
+                    <h5 class="lh-1">Based upon current numbers reported at the <a href="https://www.mohfw.gov.in/">MoHFW</a> website</h5>
                   </div>
                   
                 </div>
@@ -179,7 +195,7 @@
                       <div class="layers">
                         <div class="layer w-100 mB-10">
                           <h3 class="lh-1">Video of the week</h3>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/ehf9gvGrBSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/ehf9gvGrBSI" frameborder="0" allowfullscreen></iframe></div>
                         </div>
                       </div>
                     </div>
@@ -300,12 +316,12 @@
                   <div class="layers">
                     <div class="layer w-100 p-20">
                       <h6 class="lh-1"> Statisitcs </h6>
+                    </div style="margin-left: auto;margin-right: auto;">
+                    <div class="layer w-100 col-md-8">
+                      <iframe width="100%" height="380px" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnMgbwfXpPWY7C2k7dFKOPnx2LjD_hAixwbL8v-m7cnaQoy_ZGb-Ipt7BmwKXUDnITG18cMiI8ItWS/pubchart?oid=1749355983&format=interactive"></iframe>
                     </div>
-                    <div class="layer w-100 col-md-6">
-                      <iframe width="700px" height="480px" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnMgbwfXpPWY7C2k7dFKOPnx2LjD_hAixwbL8v-m7cnaQoy_ZGb-Ipt7BmwKXUDnITG18cMiI8ItWS/pubchart?oid=1749355983&format=interactive"></iframe>
-                    </div>
-                    <div class="layer w-100 col-md-6">
-                    <iframe width="700px" height="480px" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnMgbwfXpPWY7C2k7dFKOPnx2LjD_hAixwbL8v-m7cnaQoy_ZGb-Ipt7BmwKXUDnITG18cMiI8ItWS/pubchart?oid=1696751405&format=interactive"></iframe>
+                    <div class="layer w-100 col-md-8">
+                    <iframe width="100%" height="380px" frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQnMgbwfXpPWY7C2k7dFKOPnx2LjD_hAixwbL8v-m7cnaQoy_ZGb-Ipt7BmwKXUDnITG18cMiI8ItWS/pubchart?oid=1696751405&format=interactive"></iframe>
                     </div>
                   </div>
                 </div>
