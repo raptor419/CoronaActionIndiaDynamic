@@ -1,5 +1,5 @@
 {
-  "name": "django-dashboard-adminator",
+  "name": "django-dashboard",
   "version": "1.0.1",
   "description": "A simple UI-Ready Django boilerplate.",
   "scripts": {
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/app-generator/django-dashboard-adminator"
+    "url": "https://github.com/raptor419/CoronaActionIndiaDynamic"
   },
   "keywords": [
     "django",
     "admin-panel",
     "open-source"
   ],
-  "author": "AppSeed.us",
+  "author": "Harsh Bandhey",
   "contributors": [
-    "AppSeed Support <support@appseed.us>"
+    "Harsh Bandhey <raptor419heavy@gmail.com>"
   ],
   "license": "MIT"
 }
